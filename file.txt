@@ -1,0 +1,25 @@
+01 - O que é uma tabela verdade?
+    É um meio utilizado para definir afirmações de fatos ou ideias de maneira lógica que consiste em 7 operações lógicas.
+Exemplos:
+    Negação ( - ) - A operação lógica de negação é simples e bem intuitiva, por exemplo, se a proposição1 ( p ) for verdadeira, "-p" será falsa, e vice-versa.
+    Conjunção ( ^ ) - A conjunção depende de elementos verdadeiros para que a proposição composta seja verdadeira.
+        p = José é brasileiro
+        q = Ana é venezuelana
+        "Jose é brasileiro e Ana é venezuelana" ou "p^q"
+
+02 - O que é uma variável?
+    Um espaço na memória usado para armazenar dados que podem ser utilizados posteriormente.
+
+2.1 - Como ela deve ser escrita e o que não pode ser utilizado e uma variável?
+    A variável deve possuir nome, tipo e conteúdo. O nome de uma variável deve ser única e não podem ser nomeadas com palavras reservadas. O seu conteúdo é o valor que ela armazena. Podem começar com letras ou símbolos $ ou _. Não podem começar com número. "minhaVar", "container_1", "$dinheiro" são exemplos de nomes válidos de variáveis.
+    
+3 - Descreva com suas palavras o que é tupla, lista e dicionário e a diferença entre elas. (fazer um programa para cada)
+
+    LISTA(list) - lista é uma variável que podem armazenar vários valores de diferentes tipos, como int, boolean, string, etc.
+        Ex.: alunos = ['Maycon', 'Lais', 'Diego', 'Thamize', 'Denys']
+
+    TUPLAS(tuple) - tuplas também é uma variável que armazena valores, porém o que difere é que sua sintaxe é que se utiliza parenteses e os seus valores são imutáveis, ou seja, não podemos alterar um objeto tupla.
+        Ex.: alunos = ('Maycon', 'Lais', 'Diego', 'Thamize', 'Denys')
+
+    DICIONÁRIO(dict) - Os dicionários são coleções de itens e seus elementos são armazenados de forma não ordenada, diferente da lista ordenada que guarda apenas um valolr por vez, o dicionário torna possível gerar estruturas mais complexas. 
+        Ex.: altura = {'Maycon': 1.75, 'Lais': 1.80, 'Diego': 1.92, 'Thamize': 2.05, 'Denys': 1.98}
